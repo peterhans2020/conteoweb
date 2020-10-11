@@ -7,15 +7,15 @@
     <title>Conteo de votos</title>
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <link rel="stylesheet" href="{{ asset('/dist/modules/bootstrap/css/bootstrap.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('/dist/modules/ionicons/css/ionicons.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('/dist/modules/fontawesome/web-fonts-with-css/css/fontawesome-all.min.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset('/dist/modules/bootstrap/css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset('/dist/modules/ionicons/css/ionicons.min.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset('/dist/modules/fontawesome/web-fonts-with-css/css/fontawesome-all.min.css') }}">
 
-    <link rel="stylesheet" href="{{ asset('/dist/modules/summernote/summernote-lite.css') }}">
-    <link rel="stylesheet" href="{{ asset('/dist/modules/flag-icon-css/css/flag-icon.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('/dist/css/demo.css') }}">
-    <link rel="stylesheet" href="{{ asset('/dist/css/style.css') }}">
-    <link rel="stylesheet" href="{{ asset('/css/app.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset('/dist/modules/summernote/summernote-lite.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset('/dist/modules/flag-icon-css/css/flag-icon.min.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset('/dist/css/demo.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset('/dist/css/style.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset('/css/app.css') }}">
 
 
     <style>
